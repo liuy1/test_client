@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Input, Select, Icon } from 'antd';
 import './App.css';
+
+ReactDOM.render(
+  <div className="example-input">
+    <Input size="large" placeholder="Username" />
+    <Input size="large" placeholder="Password" />
+  </div>
+, mountNode);
+.example-input .ant-input {
+  width: 200px;
+  margin: 0 8px 8px 0;
+}
 
 class App extends Component {
   render() {
